@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/background.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,24 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Financial Sentiment Analysis",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A Machine Learning Project to predict the sentiments (positive, negative, or neutral) on real-time financial news headlines through unsupervised textual data of big tech companies using NLTK, K-Means Clustering Algorithm, and LSTM RNN and thus performing the mismatch or divergence between both the models.",
+    github: "https://github.com/Nehagarg816/Financial-Sentiment-Analysis-ML",
+    website: "https://nehagarg.streamlit.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Spotify Clone",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This is a music website frontend very similar to Spotify where we can listen to a variety of new and old songs, along with we can explore podcasts and other various gens. Technology used: HTML, CSS.",
+    github: "https://github.com/Nehagarg816/Streamify",
+    website: "https://nehagarg816.github.io/Streamify/",
   },
   {
-    title: "My Resume Site",
+    title: "Company Bankruptcy Prediction",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "The project focuses on predicting the likelihood of a company going bankrupt using a Machine Learning ALgorithm. The data set is fetched from Kaggle including various observed data of past years, and the goal was to predict the same with the highest possible accuracy.",
+    github: "https://github.com/Nehagarg816/Company-Bankruptcy-Prediction",
   },
 ];
 
